@@ -7,14 +7,14 @@ import ReactDom from 'react-dom';
 import {Link} from "react-router-dom";
 
 
-export function HomePage (){
+export function AboutPage (){
 
 return(
      <div>
-       <div>
+         <div>
     <Container>
       <Row>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
           <Container>
             <Nav>
             <Navbar.Brand>MUSICA</Navbar.Brand>
@@ -142,4 +142,4 @@ return(
 
 };
 
-export default HomePage;
+export default AboutPage;

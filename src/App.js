@@ -12,7 +12,9 @@ import {
 } from "react-router-dom";
 
 //Pages
+import   StartPage  from "./pages/start";
 import   HomePage  from "./pages/home";
+import   AboutPage  from "./pages/About";
 
 import   SQ1  from "./pages/1970/Q1";
 import   SQ2  from "./pages/1970/Q2";
@@ -68,7 +70,10 @@ class App extends Component{
   render(){
     //Routes
   return <Router>
-    <Route exact path="/" component={HomePage} />
+    <Route exact path="/" component={StartPage} />
+    <Route exact path="/home" component={HomePage} />
+    <Route exact path="/About" component={AboutPage} />
+
     <Route exact path="/1970/Q1" component={SQ1} />
     <Route exact path="/1970/Q2" component={SQ2} />
     <Route exact path="/1970/Q3" component={SQ3} />

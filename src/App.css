@@ -5,7 +5,7 @@
 
 
 .App-header {
-  background-color: #171bdd;
+  background-color: purple;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -147,6 +147,115 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: rgb(0, 0, 0);
+}
+
+.SRES {
+  
+  min-height: 100vh;
+  width: 100%;
+  background-color: #000;
+  background-image: url(https://cdn.dribbble.com/users/1242979/screenshots/7099165/media/e521bd143bf1e795af3ec725a68e273f.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: auto;
+}
+
+.ERES {
+  
+  min-height: 100vh;
+  width: 100%;
+  background-color: #000;
+  background-image: url(https://c.tenor.com/kZOaJPGiVzsAAAAC/listen-music.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: auto;
+}
+
+.NRES {
+  
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(0, 47, 255);
+  background-image: url(https://c.tenor.com/HJvqN2i4Zs4AAAAi/milk-and-mocha-cute.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: auto;
+}
+
+.NURES {
+  
+  min-height: 100vh;
+  width: 100%;
+  background-color: #000;
+  background-image: url(https://classroomclipart.com/images/gallery/Animations/Music/musical-notes-animation.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: auto;
+}
+
+.TRES {
+  
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  background-image: url(https://cdn.dribbble.com/users/1242979/screenshots/7099165/media/e521bd143bf1e795af3ec725a68e273f.gifhttps://c.tenor.com/eyg_4vUWn9oAAAAC/disco-the-simpsons.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: auto;
+}
+
+.CRES {
+  
+  min-height: 100vh;
+  width: 100%;
+  background-color: #000;
+  background-image: url(https://i.makeagif.com/media/11-27-2020/W7jJy6.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: auto;
+}
+
+.start {
+  
+  min-height: 100vh;
+  width: 100%;
+  background-color: #000;
+  background-image: url(https://i.imgur.com/jEYpayd.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: auto;
+  text-align: center;
+}
+
+.start1 {
+  
+  min-height: 100vh;
+  width: 100%;
+  background-color: #000;
+  background-image: url(https://i.imgur.com/jEYpayd.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: auto;
+}
+
+.center {
+  margin: 100px 100px 30px 5px;;
 }
 
 
