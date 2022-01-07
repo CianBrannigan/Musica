@@ -29,16 +29,6 @@
   color: rgb(0, 0, 0);
 }
 
-.card-1 {
-  background-color: #1320d6;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(0, 0, 0);
-}
-
 .card-2 {
   background-color: #1320d6;
   display: flex;
@@ -193,7 +183,7 @@
   min-height: 100vh;
   width: 100%;
   background-color: #000;
-  background-image: url(https://classroomclipart.com/images/gallery/Animations/Music/musical-notes-animation.gif);
+  background-image: url(https://c.tenor.com/6dc54FV4gKwAAAAC/chelsea-peretti-music.gif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -206,7 +196,7 @@
   min-height: 100vh;
   width: 100%;
   background-color: rgb(255, 255, 255);
-  background-image: url(https://cdn.dribbble.com/users/1242979/screenshots/7099165/media/e521bd143bf1e795af3ec725a68e273f.gifhttps://c.tenor.com/eyg_4vUWn9oAAAAC/disco-the-simpsons.gif);
+  background-image: url(https://c.tenor.com/ySPLjdMJtLcAAAAC/hey-arnold-chillin.gif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -256,6 +246,10 @@
 
 .center {
   margin: 100px 100px 30px 5px;;
+}
+
+.nav {
+  background-color: rgb(38, 38, 38);
 }
 
 

@@ -11,10 +11,10 @@ export function TQ5 (){
 
 return(
 <body>
-  <div>
+  <div className="nav">
     <Container>
       <Row>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
           <Container>
             <Nav>
             <Navbar.Brand>MUSICA</Navbar.Brand>
@@ -50,29 +50,29 @@ return(
         <br></br>
         <Card.Img variant="top" src="https://pnimg.net/w/articles/4/56c/ee0b9d6099.jpg" />
         <Card.Body>
-          <Card.Title className="text-center"><h1>What was the best selling single in the uk of the 70s</h1></Card.Title>
+          <Card.Title className="text-center"><h1>What was the best selling combined-sales single in the uk of the 2010s selling almost 4 million copies in th UK <br></br>(every 100 streams = 1 copy)</h1></Card.Title>
           <Row className="text-center">
             <Col>
-              <Button style={{height: "5rem", width: "30rem", color: "black", background: "green" }} active>
-                <h3>"Mull of Kintyre" / "Girls' School" by Wings</h3>
+              <Button style={{height: "7rem", width: "30rem", color: "black", background: "green" }} active>
+                <h3>"Happy" by Pharrell Williams</h3>
               </Button>
             </Col>
             <Col>
-              <Button style={{height: "5rem", width: "30rem", color: "black", background: "blue" }} active>
-                <h3>"Y.M.C.A." by Village People</h3>
+              <Button style={{height: "7rem", width: "30rem", color: "black", background: "blue"}} active>
+                <h3>"One Dance" by Drake featuring Wizkid & Kyla</h3>
               </Button>
             </Col>
           </Row>
           <br></br>
           <Row className="text-center">
             <Col>
-              <Button style={{height: "5rem", width: "30rem", color: "black", background: "red" }} active>
-                <h3>"Bohemian Rhapsody" by 	Queen</h3>
+              <Button style={{height: "7rem", width: "30rem", color: "black", background: "red" }} active>
+                <h3>"Uptown Funk" by 	Mark Ronson featuring Bruno Mars</h3>
               </Button>
             </Col>
             <Col>
-              <Button style={{height: "5rem", width: "30rem", color: "black", background: "orange" }} active> 
-                <h3>"Another Brick in the Wall (Part 2)" by Pink Floyd</h3>
+              <Button style={{height: "7rem", width: "30rem", color: "black", background: "orange" }} active> 
+                <h3>"Shape of You" by Ed Sheeran</h3>
               </Button>
             </Col>
           </Row>

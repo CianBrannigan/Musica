@@ -12,7 +12,7 @@ export function StartPage (){
 
 return(
   <body>
-  <div>
+  <div >
     <Container>
       <Row>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">

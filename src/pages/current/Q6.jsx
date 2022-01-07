@@ -11,10 +11,10 @@ export function CQ6 (){
 
 return(
   <body>
-  <div>
+  <div className="nav">
     <Container>
       <Row>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
           <Container>
             <Nav>
             <Navbar.Brand>MUSICA</Navbar.Brand>

@@ -11,12 +11,12 @@ export function HomePage (){
 
 return(
      <div>
-       <div>
-    <Container>
+       <div className="nav">
+    <Container >
       <Row>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
           <Container>
-            <Nav>
+            <Nav> 
             <Navbar.Brand>MUSICA</Navbar.Brand>
             </Nav>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />

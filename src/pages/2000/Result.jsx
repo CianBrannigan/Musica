@@ -12,9 +12,9 @@ export function NUResult (){
 return(
   <body>
   <div>
-    <Container>
+    <Container className="nav">
       <Row>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
           <Container>
             <Nav>
             <Navbar.Brand>MUSICA</Navbar.Brand>

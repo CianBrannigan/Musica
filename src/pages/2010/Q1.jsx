@@ -11,10 +11,10 @@ export function TQ1 (){
 
 return(
 <body>
-  <div>
+  <div className="nav">
     <Container>
       <Row>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
           <Container>
             <Nav>
             <Navbar.Brand>MUSICA</Navbar.Brand>
@@ -50,16 +50,16 @@ return(
         <br></br>
         <Card.Img variant="top" src="https://pnimg.net/w/articles/4/56c/ee0b9d6099.jpg" />
         <Card.Body>
-          <Card.Title className="text-center"><h1>What was the best selling single in the uk of the 70s</h1></Card.Title>
+          <Card.Title className="text-center"><h1>What was the best selling paid-for single in the uk of the 2010s selling almost 2 million copies in th UK</h1></Card.Title>
           <Row className="text-center">
             <Col>
               <Button style={{height: "5rem", width: "30rem", color: "black", background: "green" }} active>
-                <h3>"Mull of Kintyre" / "Girls' School" by Wings</h3>
+                <h3>"Happy" by Pharrell Williams</h3>
               </Button>
             </Col>
             <Col>
               <Button style={{height: "5rem", width: "30rem", color: "black", background: "blue" }} active>
-                <h3>"Y.M.C.A." by Village People</h3>
+                <h3>"Someone like You" by Adele</h3>
               </Button>
             </Col>
           </Row>
@@ -67,12 +67,12 @@ return(
           <Row className="text-center">
             <Col>
               <Button style={{height: "5rem", width: "30rem", color: "black", background: "red" }} active>
-                <h3>"Bohemian Rhapsody" by 	Queen</h3>
+                <h3>"Wake Me Up!" by 	Avicii featuring Aloe Blacc</h3>
               </Button>
             </Col>
             <Col>
               <Button style={{height: "5rem", width: "30rem", color: "black", background: "orange" }} active> 
-                <h3>"Another Brick in the Wall (Part 2)" by Pink Floyd</h3>
+                <h3>"Uptown Funk" by 	Mark Ronson featuring Bruno Mars</h3>
               </Button>
             </Col>
           </Row>
