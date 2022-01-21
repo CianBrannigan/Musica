@@ -50,29 +50,30 @@ return(
         <br></br>
         <Card.Img variant="top" src="https://pnimg.net/w/articles/4/56c/ee0b9d6099.jpg" />
         <Card.Body>
-          <Card.Title className="text-center"><h1>What was the best selling single in the uk of the 70s</h1></Card.Title>
+          <Card.Title className="text-center"><h1>What was the biggest ablum of 2020 according to Official charts.com 
+            even though it was released in May 2019</h1></Card.Title>
           <Row className="text-center">
             <Col>
-              <Button style={{height: "5rem", width: "30rem", color: "black", background: "green" }} active>
-                <h3>"Mull of Kintyre" / "Girls' School" by Wings</h3>
+              <Button style={{height: "7rem", width: "30rem", color: "black", background: "green" }} active>
+                <h3>"Folklore" by Taylor Swift</h3>
               </Button>
             </Col>
             <Col>
-              <Button style={{height: "5rem", width: "30rem", color: "black", background: "blue" }} active>
-                <h3>"Y.M.C.A." by Village People</h3>
+              <Button style={{height: "7rem", width: "30rem", color: "black", background: "blue" }} active>
+                <h3>"divinely uninspired to a hellish extent" by Lewis Capaldi</h3>
               </Button>
             </Col>
           </Row>
           <br></br>
           <Row className="text-center">
             <Col>
-              <Button style={{height: "5rem", width: "30rem", color: "black", background: "red" }} active>
-                <h3>"Bohemian Rhapsody" by 	Queen</h3>
+              <Button style={{height: "7rem", width: "30rem", color: "black", background: "red" }} active>
+                <h3>"After hours" by 	the Weeknd</h3>
               </Button>
             </Col>
             <Col>
-              <Button style={{height: "5rem", width: "30rem", color: "black", background: "orange" }} active> 
-                <h3>"Another Brick in the Wall (Part 2)" by Pink Floyd</h3>
+              <Button style={{height: "7rem", width: "30rem", color: "black", background: "orange" }} active> 
+                <h3>"Power up" by AC/DC</h3>
               </Button>
             </Col>
           </Row>

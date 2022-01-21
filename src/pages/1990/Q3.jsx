@@ -50,16 +50,16 @@ return(
         <br></br>
         <Card.Img variant="top" src="https://pnimg.net/w/articles/4/56c/ee0b9d6099.jpg" />
         <Card.Body>
-          <Card.Title className="text-center"><h1>What was the best selling single in the uk of the 70s</h1></Card.Title>
+          <Card.Title className="text-center"><h1>What was the best selling album in the uk of the 90s</h1></Card.Title>
           <Row className="text-center">
             <Col>
               <Button style={{height: "5rem", width: "30rem", color: "black", background: "green" }} active>
-                <h3>"Mull of Kintyre" / "Girls' School" by Wings</h3>
+                <h3>"Urban Hymns" by The Verve</h3>
               </Button>
             </Col>
             <Col>
               <Button style={{height: "5rem", width: "30rem", color: "black", background: "blue" }} active>
-                <h3>"Y.M.C.A." by Village People</h3>
+                <h3>"	Spice" by Spice Girls</h3>
               </Button>
             </Col>
           </Row>
@@ -67,12 +67,12 @@ return(
           <Row className="text-center">
             <Col>
               <Button style={{height: "5rem", width: "30rem", color: "black", background: "red" }} active>
-                <h3>"Bohemian Rhapsody" by 	Queen</h3>
+                <h3>"Gold: Greatest Hits" by ABBA</h3>
               </Button>
             </Col>
             <Col>
               <Button style={{height: "5rem", width: "30rem", color: "black", background: "orange" }} active> 
-                <h3>"Another Brick in the Wall (Part 2)" by Pink Floyd</h3>
+                <h3>"(What's the Story) Morning Glory?" by Oasis</h3>
               </Button>
             </Col>
           </Row>

@@ -53,12 +53,12 @@ return(
           <Card.Title className="text-center"><h1>What was the best selling paid-for single in the uk of the 2010s selling almost 2 million copies in th UK</h1></Card.Title>
           <Row className="text-center">
             <Col>
-              <Button style={{height: "5rem", width: "30rem", color: "black", background: "green" }} active>
+              <Button style={{height: "7rem", width: "30rem", color: "black", background: "green" }} active>
                 <h3>"Happy" by Pharrell Williams</h3>
               </Button>
             </Col>
             <Col>
-              <Button style={{height: "5rem", width: "30rem", color: "black", background: "blue" }} active>
+              <Button style={{height: "7rem", width: "30rem", color: "black", background: "blue" }} active>
                 <h3>"Someone like You" by Adele</h3>
               </Button>
             </Col>
@@ -66,12 +66,12 @@ return(
           <br></br>
           <Row className="text-center">
             <Col>
-              <Button style={{height: "5rem", width: "30rem", color: "black", background: "red" }} active>
+              <Button style={{height: "7rem", width: "30rem", color: "black", background: "red" }} active>
                 <h3>"Wake Me Up!" by 	Avicii featuring Aloe Blacc</h3>
               </Button>
             </Col>
             <Col>
-              <Button style={{height: "5rem", width: "30rem", color: "black", background: "orange" }} active> 
+              <Button style={{height: "7rem", width: "30rem", color: "black", background: "orange" }} active> 
                 <h3>"Uptown Funk" by 	Mark Ronson featuring Bruno Mars</h3>
               </Button>
             </Col>
