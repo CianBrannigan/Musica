@@ -50,7 +50,7 @@ return(
         <br></br>
         <Card.Img variant="top" src="https://pnimg.net/w/articles/4/56c/ee0b9d6099.jpg" />
         <Card.Body>
-          <Card.Title className="text-center"><h1>"Sex on Fire" and "Use Somebody" were multi-platinum hits for which American band</h1></Card.Title>
+          <Card.Title className="text-center"><h1>"Sex on Fire" and "Use Somebody" were multi-platinum hits for which American band  </h1></Card.Title>
           <Row className="text-center">
             <Col>
               <Button style={{height: "5rem", width: "30rem", color: "black", background: "green" }} active>
