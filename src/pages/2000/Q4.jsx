@@ -48,7 +48,7 @@ return(
     <Row>
       <Card style={{width: "100rem", color: "white", background: "#eb0ea8" }}>
         <br></br>
-        <Card.Img variant="top" src="https://pnimg.net/w/articles/4/56c/ee0b9d6099.jpg" />
+        <Card.Img variant="top" src="https://www.crehans.ie/uploads/H5qHhtg3/705x0_538x0/shutterstock_681809980_500.jpg" />
         <Card.Body>
           <Card.Title className="text-center"><h1>Can you guess the song from just the instrumentals</h1></Card.Title>
           <br></br>

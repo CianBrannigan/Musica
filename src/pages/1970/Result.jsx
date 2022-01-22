@@ -58,7 +58,7 @@ return(
       <br></br>
     </div>
 
-    <h1 style={{ color: "black", fontWeight: "bold"}} className="text-center">YOU GOT "PLACEHOLDER 5" OUT OF 6 RIGHT!!!!</h1>
+    <h1 style={{ color: "black", fontWeight: "bold"}} className="text-center">YOU GOT 5 OUT OF 6 RIGHT!!!!</h1>
     <br></br>
     <br></br>
     <Row className="text-center">

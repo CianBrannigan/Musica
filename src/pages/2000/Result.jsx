@@ -51,14 +51,14 @@ return(
       <br></br>
       <br></br>
       <ProgressBar  style={ { height: "5rem" } }>
-        <ProgressBar striped variant="success" now={83.33} key={1} />
-        <ProgressBar striped variant="danger" now={16.67} key={2} />
+        <ProgressBar striped variant="success" now={66.66} key={1} />
+        <ProgressBar striped variant="danger" now={33.34} key={2} />
       </ProgressBar>
       <br></br>
       <br></br>
     </div>
 
-    <h1 style={{ color: "black", fontWeight: "bold"}} className="text-center">YOU GOT "PLACEHOLDER 5" OUT OF 6 RIGHT!!!!</h1>
+    <h1 style={{ color: "black", fontWeight: "bold"}} className="text-center">YOU GOT 4 OUT OF 6 RIGHT!!!!</h1>
     <br></br>
     <br></br>
     <Row className="text-center">

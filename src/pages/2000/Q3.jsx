@@ -48,7 +48,7 @@ return(
     <Row>
       <Card style={{width: "100rem", color: "white", background: "#eb0ea8" }}>
         <br></br>
-        <Card.Img variant="top" src="https://pnimg.net/w/articles/4/56c/ee0b9d6099.jpg" />
+        <Card.Img variant="top" src="https://i.scdn.co/image/ab67706c0000bebbec335891f00a61e60080228d" />
         <Card.Body>
           <Card.Title className="text-center"><h1>What was the best selling single in the uk of the 2000s</h1></Card.Title>
           <Row className="text-center">

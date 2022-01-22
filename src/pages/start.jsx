@@ -45,11 +45,7 @@ return(
   </div>
   <div class="start">
     <Container>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <Link to="/home"><Button style={{ width: '10rem', color: "white", background: "purple", display: "flex", justifyContent: "center"}}>PLAY!!!!!</Button></Link> 
+      
     </Container>
   </div>
   

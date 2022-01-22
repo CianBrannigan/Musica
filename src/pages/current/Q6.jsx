@@ -49,7 +49,7 @@ return(
     <Row>
       <Card style={{width: "100rem", color: "white", background: "#eb0ea8" }}>
         <br></br>
-        <Card.Img variant="top" src="https://pnimg.net/w/articles/4/56c/ee0b9d6099.jpg" />
+        <Card.Img variant="top" src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/105669550/original/b893444caf021fee58a0738e3576d324e4d29969/edit-cut-or-loop-your-song-music-and-audio-file.jpg" />
         <Card.Body>
           <Card.Title className="text-center"><h1>This song has been edited can you still guess it?</h1></Card.Title>
           <br></br>

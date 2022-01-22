@@ -49,7 +49,7 @@ return(
     <Row>
       <Card style={{width: "100rem", color: "white", background: "#eb0ea8" }}>
         <br></br>
-        <Card.Img variant="top" src="https://pnimg.net/w/articles/4/56c/ee0b9d6099.jpg" />
+        <Card.Img variant="top" src="https://pbblogassets.s3.amazonaws.com/uploads/2018/12/04152236/Waveform-premiere-shot.jpg" />
         <Card.Body>
           <Card.Title className="text-center"><h1>This song has been edited can you still guess it?</h1></Card.Title>
           <br></br>

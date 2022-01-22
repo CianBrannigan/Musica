@@ -48,7 +48,7 @@ return(
     <Row>
       <Card style={{width: "100rem", color: "white", background: "#eb0ea8" }}>
         <br></br>
-        <Card.Img variant="top" src="https://pnimg.net/w/articles/4/56c/ee0b9d6099.jpg" />
+        <Card.Img variant="top" src="https://www.officialcharts.com/media/651996/official-charts-company-1100.jpg" />
         <Card.Body>
           <Card.Title className="text-center"><h1>What was the biggest ablum of 2020 according to Official charts.com 
             even though it was released in May 2019</h1></Card.Title>

@@ -48,7 +48,7 @@ return(
     <Row>
       <Card style={{width: "100rem", color: "white", background: "#eb0ea8" }}>
         <br></br>
-        <Card.Img variant="top" src="https://pnimg.net/w/articles/4/56c/ee0b9d6099.jpg" />
+        <Card.Img variant="top" src="https://www.popsonguniversity.com/wp-content/uploads/2019/03/platinum-2-1.jpg" />
         <Card.Body>
           <Card.Title className="text-center"><h1>"Sex on Fire" and "Use Somebody" were multi-platinum hits for which American band  </h1></Card.Title>
           <Row className="text-center">

@@ -47,7 +47,7 @@ return(<body>
     <Row>
       <Card style={{width: "100rem", color: "white", background: "#eb0ea8" }}>
         <br></br>
-        <Card.Img variant="top" src="https://pnimg.net/w/articles/4/56c/ee0b9d6099.jpg" />
+        <Card.Img variant="top" src="https://www.nicepng.com/png/detail/62-621375_best-seller-best-selling-logo-png.png" />
         <Card.Body>
           <Card.Title className="text-center"><h1>Who was the biggest selling artist/artists of 70s</h1></Card.Title>
           <Row className="text-center">

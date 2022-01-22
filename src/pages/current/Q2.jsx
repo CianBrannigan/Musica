@@ -48,18 +48,18 @@ return(
     <Row>
       <Card style={{width: "100rem", color: "white", background: "#eb0ea8" }}>
         <br></br>
-        <Card.Img variant="top" src="https://pnimg.net/w/articles/4/56c/ee0b9d6099.jpg" />
+        <Card.Img variant="top" src="https://sspinnovations.com/wp-content/uploads/assets/assets/5YrsLaterLogo3.gif" />
         <Card.Body>
           <Card.Title className="text-center"><h1>Who made her long awaited return with her first ablum in 5 years called "30" 
             release on the 19th of November 2021</h1></Card.Title>
           <Row className="text-center">
             <Col>
-              <Button style={{height: "5rem", width: "30rem", color: "black", background: "green" }} active>
+              <Button activeClassName="active" style={{height: "5rem", width: "30rem", color: "black", background: "green" }} active>
                 <h3>Adele</h3>
               </Button>
             </Col>
             <Col>
-              <Button style={{height: "5rem", width: "30rem", color: "black", background: "blue" }} active>
+              <Button activeClassName="active" style={{height: "5rem", width: "30rem", color: "black", background: "blue" }} active>
                 <h3>Beyoncé</h3>
               </Button>
             </Col>
@@ -67,12 +67,12 @@ return(
           <br></br>
           <Row className="text-center">
             <Col>
-              <Button style={{height: "5rem", width: "30rem", color: "black", background: "red" }} active>
+              <Button activeClassName="active" style={{height: "5rem", width: "30rem", color: "black", background: "red" }} active>
                 <h3>Dua Lipa</h3>
               </Button>
             </Col>
             <Col>
-              <Button style={{height: "5rem", width: "30rem", color: "black", background: "orange" }} active> 
+              <Button activeClassName="active" style={{height: "5rem", width: "30rem", color: "black", background: "orange" }} active> 
                 <h3>Taylor Swift</h3>
               </Button>
             </Col>
