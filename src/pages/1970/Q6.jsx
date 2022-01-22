@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from "react";
-import App from '../../App';
+import React, { Component, useEffect, useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card,Container,Row,Col,Button,Form,Toast,Image,Nav,Navbar,Section,NavDropdown} from 'react-bootstrap';
 import ReactDom from 'react-dom';
 import {Link} from "react-router-dom";
+import { Howl, Howler } from "howler";
+import sound from './songs/dgbmh-edit.mp3'
 
 
 export function SQ6 (){
@@ -51,6 +52,13 @@ return(
         <Card.Img variant="top" src="https://hotemoji.com/images/dl/5/black-right-pointing-triangle-emoji-by-twitter.png" />
         <Card.Body>
           <Card.Title className="text-center"><h1>This song has been edited can you still guess it?</h1></Card.Title>
+          <br></br>
+          <div>
+            <audio controls="controls" src={sound}>
+              Your browser does not support the HTML5 audio element.
+            </audio>
+          </div>
+          <br></br>
           <Row className="text-center">
             <Col>
               <Button style={{height: "5rem", width: "30rem", color: "black", background: "green" }} active>

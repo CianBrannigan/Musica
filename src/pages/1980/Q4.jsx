@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card,Container,Row,Col,Button,Form,Toast,Image,Nav,Navbar,Section,NavDropdown} from 'react-bootstrap';
 import ReactDom from 'react-dom';
 import {Link} from "react-router-dom";
+import sound from './songs/takeonme-cut.mp3'
 
 
 export function EQ4 (){
@@ -51,15 +52,22 @@ return(
         <Card.Img variant="top" src="https://pnimg.net/w/articles/4/56c/ee0b9d6099.jpg" />
         <Card.Body>
           <Card.Title className="text-center"><h1>Can you guess the song from just the instrumentals</h1></Card.Title>
+          <br></br>
+          <div>
+            <audio controls="controls" src={sound}>
+              Your browser does not support the HTML5 audio element.
+            </audio>
+          </div>
+          <br></br>
           <Row className="text-center">
             <Col>
               <Button style={{height: "5rem", width: "30rem", color: "black", background: "green" }} active>
-                <h3>"Mull of Kintyre" / "Girls' School" by Wings</h3>
+                <h3>"Sexual Healing" by Marvin Gaye</h3>
               </Button>
             </Col>
             <Col>
               <Button style={{height: "5rem", width: "30rem", color: "black", background: "blue" }} active>
-                <h3>"Y.M.C.A." by Village People</h3>
+                <h3>"Close to Me" by the Cure</h3>
               </Button>
             </Col>
           </Row>
@@ -67,12 +75,12 @@ return(
           <Row className="text-center">
             <Col>
               <Button style={{height: "5rem", width: "30rem", color: "black", background: "red" }} active>
-                <h3>"Bohemian Rhapsody" by 	Queen</h3>
+                <h3>"Free Fallin" by Tom Petty</h3>
               </Button>
             </Col>
             <Col>
               <Button style={{height: "5rem", width: "30rem", color: "black", background: "orange" }} active> 
-                <h3>"Another Brick in the Wall (Part 2)" by Pink Floyd</h3>
+                <h3>"Take on me" by A-ha</h3>
               </Button>
             </Col>
           </Row>

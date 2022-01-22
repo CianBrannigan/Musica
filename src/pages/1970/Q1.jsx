@@ -67,7 +67,7 @@ return(
           <Row className="text-center">
             <Col>
               <Button style={{height: "5rem", width: "30rem", color: "black", background: "red", fontWeight: "bold" }} >
-                <h3>"Bohemian Rhapsody" by 	Queen</h3>
+                <h3>"Bohemian Rhapsody" by Queen</h3>
               </Button>
             </Col>
             <Col>

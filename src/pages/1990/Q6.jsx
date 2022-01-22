@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card,Container,Row,Col,Button,Form,Toast,Image,Nav,Navbar,Section,NavDropdown} from 'react-bootstrap';
 import ReactDom from 'react-dom';
 import {Link} from "react-router-dom";
+import sound from './songs/iwant-edit.mp3'
 
 
 export function NQ6 (){
@@ -51,15 +52,22 @@ return(
         <Card.Img variant="top" src="https://pnimg.net/w/articles/4/56c/ee0b9d6099.jpg" />
         <Card.Body>
           <Card.Title className="text-center"><h1>This song has been edited can you still guess it?</h1></Card.Title>
+          <br></br>
+          <div>
+            <audio controls="controls" src={sound}>
+              Your browser does not support the HTML5 audio element.
+            </audio>
+          </div>
+          <br></br>
           <Row className="text-center">
             <Col>
               <Button style={{height: "5rem", width: "30rem", color: "black", background: "green" }} active>
-                <h3>"Mull of Kintyre" / "Girls' School" by Wings</h3>
+                <h3>"No Diggity" by Blackstreet</h3>
               </Button>
             </Col>
             <Col>
               <Button style={{height: "5rem", width: "30rem", color: "black", background: "blue" }} active>
-                <h3>"Y.M.C.A." by Village People</h3>
+                <h3>"i want it that way" by Backstreet Boys</h3>
               </Button>
             </Col>
           </Row>
@@ -67,12 +75,12 @@ return(
           <Row className="text-center">
             <Col>
               <Button style={{height: "5rem", width: "30rem", color: "black", background: "red" }} active>
-                <h3>"Bohemian Rhapsody" by 	Queen</h3>
+                <h3>"Wonderwall" by Oasis</h3>
               </Button>
             </Col>
             <Col>
               <Button style={{height: "5rem", width: "30rem", color: "black", background: "orange" }} active> 
-                <h3>"Another Brick in the Wall (Part 2)" by Pink Floyd</h3>
+                <h3>"No Scrubs" by TLC</h3>
               </Button>
             </Col>
           </Row>

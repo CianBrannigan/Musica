@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card,Container,Row,Col,Button,Form,Toast,Image,Nav,Navbar,Section,NavDropdown} from 'react-bootstrap';
 import ReactDom from 'react-dom';
 import {Link} from "react-router-dom";
+import sound from './songs/dancingqueen-cut.mp3'
 
 
 export function SQ4 (){
@@ -51,6 +52,13 @@ return(
         <Card.Img variant="top" src="https://school-learningzone.co.uk/_images/1108151_l.jpg" />
         <Card.Body>
           <Card.Title className="text-center"><h1>Can you guess the song from just the instrumentals</h1></Card.Title>
+          <br></br>
+          <div>
+            <audio controls="controls" src={sound}>
+              Your browser does not support the HTML5 audio element.
+            </audio>
+          </div>
+          <br></br>
           <Row className="text-center">
             <Col>
               <Button style={{height: "5rem", width: "30rem", color: "black", background: "green" }} active>
