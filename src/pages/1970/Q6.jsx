@@ -1,9 +1,8 @@
-import React, { Component, useEffect, useState } from "react";
+import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Card,Container,Row,Col,Button,Form,Toast,Image,Nav,Navbar,Section,NavDropdown} from 'react-bootstrap';
-import ReactDom from 'react-dom';
+import { Card,Container,Row,Col,Button,Nav,Navbar,NavDropdown} from 'react-bootstrap';
 import {Link} from "react-router-dom";
-import { Howl, Howler } from "howler";
+
 import sound from './songs/dgbmh-edit.mp3'
 
 

@@ -1,20 +1,14 @@
 import React, {Component}  from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Col, Button, Card } from 'react-bootstrap'
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useRouteMatch,
-  useParams
+  Route
 } from "react-router-dom";
 
 //Pages
 import   StartPage  from "./pages/start";
 import   HomePage  from "./pages/home";
-import   AboutPage  from "./pages/About";
 
 import   SQ1  from "./pages/1970/Q1";
 import   SQ2  from "./pages/1970/Q2";
@@ -75,7 +69,6 @@ class App extends Component{
   return <Router>
     <Route exact path="/" component={StartPage} />
     <Route exact path="/home" component={HomePage} />
-    <Route exact path="/About" component={AboutPage} />
     <Route exact path="/spotify-api/dataFetcher" component={Datafetcher} />
 
     <Route exact path="/1970/Q1" component={SQ1} />

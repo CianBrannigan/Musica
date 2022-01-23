@@ -6,9 +6,7 @@ import { Credentials } from './Credentials';
 import axios from 'axios';
 import './spotify.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Card,Container,Row,Col,Button,Form,Toast,Image,Nav,Navbar,Section,NavDropdown} from 'react-bootstrap';
-import ReactDom from 'react-dom';
-import {Link} from "react-router-dom";
+import {Container,Row,Nav,Navbar,NavDropdown} from 'react-bootstrap';
 
 
 const Datafetcher = () => {
