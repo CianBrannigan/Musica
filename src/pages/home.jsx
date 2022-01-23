@@ -5,9 +5,15 @@ import '../App.css';
 import { Card,Container,Row,Col,Button,Form,Toast,Image,Nav,Navbar,Section,NavDropdown} from 'react-bootstrap';
 import ReactDom from 'react-dom';
 import {Link} from "react-router-dom";
+import * as Tone from 'tone'
 
 
 export function HomePage (){
+
+  const player = new Tone.Player("").toDestination();
+  Tone.loaded().then(() => {
+    player.start();
+  });
 
 return(
      <div>
@@ -34,7 +40,7 @@ return(
                 </NavDropdown>
               </Nav>
               <Nav>
-                <Nav.Link href="/About">About us</Nav.Link>
+                <Nav.Link href="/spotify-api/dataFetcher">Metadata</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

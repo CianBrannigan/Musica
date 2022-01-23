@@ -35,7 +35,7 @@ return(
                 </NavDropdown>
               </Nav>
               <Nav>
-                <Nav.Link href="/About">About us</Nav.Link>
+              <Nav.Link href="/spotify-api/dataFetcher">Metadata</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

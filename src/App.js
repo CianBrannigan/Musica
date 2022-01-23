@@ -63,6 +63,7 @@ import   CQ4  from "./pages/current/Q4";
 import   CQ5  from "./pages/current/Q5";
 import   CQ6  from "./pages/current/Q6";
 import   CRES  from "./pages/current/Result";
+import Datafetcher from './pages/spotify-api/dataFetcher';
 
 
 
@@ -75,6 +76,7 @@ class App extends Component{
     <Route exact path="/" component={StartPage} />
     <Route exact path="/home" component={HomePage} />
     <Route exact path="/About" component={AboutPage} />
+    <Route exact path="/spotify-api/dataFetcher" component={Datafetcher} />
 
     <Route exact path="/1970/Q1" component={SQ1} />
     <Route exact path="/1970/Q2" component={SQ2} />
